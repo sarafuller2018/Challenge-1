@@ -1,4 +1,5 @@
 * {
+/*Univseral selector will apply to everything*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 header {
-/*This applies to the header section*/
+/*This formatting applies to the header section*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -54,14 +55,14 @@ header div ul li {
 }
 
 .content {
-/*This applies to all content in the content section giving it correct format*/
+/*This formatting applies to all content in the content section giving it correct format*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .search-engine-optimization {
-/*This applies to only SEO section*/
+/*This formatting applies to only SEO section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,7 +72,7 @@ header div ul li {
 }
 
 .online-reputation-management {
-/*This applies to only online reputation mgmt section*/
+/*This formatting applies to only online reputation mgmt section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,13 +82,41 @@ header div ul li {
 }
 
 .social-media-marketing {
-/*This applies to only social media section*/
+/*This formatting applies to only social media section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+/*The below selectors make sure the images and text displayed are the correct size*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /*These selectors position the images in the correct place on the page*/
@@ -101,7 +130,7 @@ header div ul li {
     margin-left: 25px;
 }
     
-/*These selectors position the text and images on the right side of the page*/
+/*These selectors position and format the text and images on the right side of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -155,38 +184,9 @@ a {
     text-decoration: none;
 }
 
-
 p {
 /*Applies to all paragraphs*/
     font-size: 16px;
-}
-
-/*The below selectors make sure the images and text displayed on the right side of the screen have the correct format*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
