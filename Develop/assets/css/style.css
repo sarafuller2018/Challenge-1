@@ -8,23 +8,27 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
+/*This applies to the header section*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
+/*This applies to the title header Horiseon to allow correct font and display*/
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
+/*Allows "seo" in Horiseon to be a different color to stand out*/
     color: #d9dcd6;
 }
 
-.header div {
+header div {
+/*Allows for text to be in correct position in the header section*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,33 +36,61 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+header div ul li {
+/*Allows for text to be in correct position in the header section*/
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
+/*Allows there to be large image before the content*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+ 
 }
 
+.content {
+/*This applies to all content in the content section giving it correct format*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+/*This applies to only SEO section*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+/*This applies to only online reputation mgmt section*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+/*This applies to only social media section*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*These selectors position the images in the correct place on the page*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +100,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+    
+/*These selectors position the text and images on the right side of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,30 +116,18 @@ p {
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: center;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    text-align: center;
 }
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -134,33 +149,19 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+a {
+/*Applies to all anchor links*/
     color: #ffffff;
+    text-decoration: none;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+
+p {
+/*Applies to all paragraphs*/
+    font-size: 16px;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/*The below selectors make sure the images and text displayed on the right side of the screen have the correct format*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,13 +189,11 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
+/*These setting apply to the footer at the bottom of the page*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
