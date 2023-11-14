@@ -22,3 +22,6 @@ Please refer to the LICENSE in the repo.
 
 ## Link to Deployed Website
 
+## Screenshot of Website
+
+![Alt text](Assets/images/image.png)
