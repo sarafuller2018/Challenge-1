@@ -1,5 +1,5 @@
 * {
-/*Univseral selector will apply to everything*/
+/*Universal selector formatting will apply to everything*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -38,7 +38,7 @@ header div {
 }
 
 header div ul li {
-/*Allows for text to be in correct position in the header section*/
+/*Allows for list text to be in correct position in the header section*/
     display: inline-block;
     margin-left: 25px;
 }
@@ -55,7 +55,7 @@ header div ul li {
 }
 
 .content {
-/*This formatting applies to all content in the content section giving it correct format*/
+/*This applies to all content in the content section giving it correct format*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -130,7 +130,7 @@ header div ul li {
     margin-left: 25px;
 }
     
-/*These selectors position and format the text and images on the right side of the page*/
+/*These selectors position and format the text and images on the right sidebar of the page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
