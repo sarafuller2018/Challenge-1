@@ -22,6 +22,8 @@ Please refer to the LICENSE in the repo.
 
 ## Link to Deployed Website
 
+https://sarafuller2018.github.io/Horiseon-Marketing-Page/ 
+
 ## Screenshot of Website
 
 ![Alt text](Assets/images/image.png)
