@@ -28,8 +28,8 @@ header h1 {
     color: #d9dcd6;
 }
 
-header div {
-/*Allows for text to be in correct position in the header section*/
+header nav {
+/*Allows for text to be in correct position in the header navigation section*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,8 +37,8 @@ header div {
     font-size: 20px;
 }
 
-header div ul li {
-/*Allows for list text to be in correct position in the header section*/
+header nav ul li {
+/*Allows for list text to be in correct position in the header navigation section*/
     display: inline-block;
     margin-left: 25px;
 }
