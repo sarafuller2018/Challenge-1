@@ -6,6 +6,7 @@
 }
 
 body {
+/*This formatting will apply to everything in the body to give it the same background color*/
     background-color: #d9dcd6;
 }
 
@@ -61,8 +62,8 @@ header nav ul li {
     margin-left: 20px;
 }
 
-.search-engine-optimization {
-/*This formatting applies to only SEO section*/
+.article-format {
+/*This formatting applies to each article section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,55 +72,17 @@ header nav ul li {
     color: #ffffff;
 }
 
-.online-reputation-management {
-/*This formatting applies to only online reputation mgmt section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-/*This formatting applies to only social media section*/
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*The below selectors make sure the images and text displayed are the correct size*/
-.search-engine-optimization img {
+/*The below selectors make sure the images and headers displayed are the correct size in the articles*/
+article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*These selectors position the images in the correct place on the page*/
+/*These selectors position the images in the correct place on the page in the articles*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -130,8 +93,8 @@ header nav ul li {
     margin-left: 25px;
 }
     
-/*These selectors position and format the text and images on the right sidebar of the page*/
 .benefits {
+/*This selector positions and formats the right sidebar of the page*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -142,37 +105,15 @@ header nav ul li {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.aside-text-format {
+/*Allows side bar text to display with correct format*/
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+div img {
+/*Allows side bar images to display with correct format*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
